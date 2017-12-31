@@ -1,0 +1,24 @@
+{
+    "name": "iovzt/showbal-sdk-php",
+    "homepage": "https://github.com/iovzt/showbal-sdk-php",
+    "description": "Php sdk for Showbal Api",
+    "keywords": ["showbal mws", "php sdk"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Iskryzhytskyi Oleksandr",
+            "homepage": "https://github.com/iovzt/showbal-sdk-php"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/iovzt/showbal-sdk-php/issues"
+    },
+    "require": {
+        "php": ">=5.6"
+    },        
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "include-path": ["src/"]
+}
